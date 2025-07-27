@@ -1,4 +1,5 @@
-fname = input("enter first name: ")
-lname = input("enter last name: ")
-fullname = "Hello, "+ fname+" "+lname+"! welcome to the python program."
-print(fullname)
+sum =0
+for i in range(1,51):
+    sum = sum + i
+
+print(f" the sum of number from 1 to 5 is {sum}")
